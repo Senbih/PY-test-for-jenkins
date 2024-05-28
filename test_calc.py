@@ -1,13 +1,13 @@
 from calc import *
 
 def test_add():
-    assert add(2,3) == 5
+    assert add(3,3) == 6
 
 def test_subtract():
-    assert subtract(2, 3) == -1
+    assert subtract(2, 4) == -2
 
 def test_multiply():
-    assert multiply(2, 3) == 6
+    assert multiply(2, 5) == 10
 
 def test_divide():
     assert divide(10,5) == 2
